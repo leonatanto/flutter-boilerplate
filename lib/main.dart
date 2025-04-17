@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic/app_theme.dart';
+import 'package:flutter_basic/helpers/app_theme.dart';
 import 'package:flutter_basic/pages/splash_page.dart';
 import 'package:easy_localization/easy_localization.dart';
 
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme, // Light Theme
       darkTheme: AppTheme.darkTheme, // Dark Theme
       themeMode:
-          ThemeMode.system, // Automatically switch based on system setting
+          ThemeMode.system,
       home: SplashScreen(),
 
       // Localizations

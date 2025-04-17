@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Use for common page that need action on top, title
 class SimpleContainer extends StatelessWidget {
   final String title;
   final Widget? leftIcon;

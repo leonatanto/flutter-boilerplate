@@ -1,5 +1,9 @@
 {
     "title": "Hello, Welcome!",
-    "message": "This is a test message."
+    "message": "This is a test message.",
+
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "profile": "Profile"
   }
   

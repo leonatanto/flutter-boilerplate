@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_basic/pages/feed_page.dart';
 import 'package:flutter_basic/pages/portfolio_page.dart';
@@ -27,14 +28,14 @@ class _HomePageState extends State<HomePage> {
               }),
             },
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'.tr()),
           BottomNavigationBarItem(
             icon: Icon(Icons.pie_chart),
-            label: 'Portfolio',
+            label: 'portfolio'.tr(),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
-            label: 'Profile',
+            label: 'profile'.tr(),
           ),
         ],
       ),
